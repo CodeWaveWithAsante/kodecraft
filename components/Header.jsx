@@ -14,7 +14,9 @@ const Header = () => {
           <h1 className='text-3xl md:txet-4xl mb-4 font-bold text-slate-600 leading-[3rem] 2xl:leading-[4rem]'>
             KodeCraft Solutions
             <br />
-            <span>Building Your Digital Future</span>
+           <span className='text-blue-700 text-5xl'>
+              Building Your Digital Future
+            </span>
           </h1>
           <p className='mb-8 leading-relaxed 2xl:mb-14 2xl:leading-[2rem]'>
             At KodeCraft Solutions, we are passionate about transforming ideas
