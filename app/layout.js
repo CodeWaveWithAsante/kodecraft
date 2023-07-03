@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "KodeCraft Solutions",
-  description: "A software development solution.",
+  description: "A software solution for business",
 };
 
 export default function RootLayout({ children }) {

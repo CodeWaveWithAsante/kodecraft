@@ -1,25 +1,26 @@
 import Link from "next/link";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import { CustomButton, TextInput } from ".";
 import { FiInstagram } from "react-icons/fi";
+import { CustomButton, TextInput } from "./";
 import { footerLinks } from "./data";
 
 const Footer = () => {
   return (
-    <footer className='text-gray-700 body-font'>
+    <footer className='text-gray-700'>
       <div className='container px-5 py-24 mx-auto'>
         <div className='w-full flex flex-wrap gap-10 justify-between -mb-10 -mx-4'>
           {footerLinks.map(({ id, title, links }) => (
             <div className='w-auto px-4'>
-              <h2 className='font-semibold text-gray-900 tracking-widest text-sm mb-3'>
+              <h2 className='font-medium text-gray-900 tracking-widest text-sm mb-3'>
                 {title}
               </h2>
-              <div className='list-none mb-10 flex flex-col gap-3'>
+
+              <div className='mb-10 flex flex-col gap-3'>
                 {links.map((link, index) => (
                   <Link
                     href='#'
                     key={index}
-                    className='text-gray-900 hover:text-gray-700'
+                    className='text-gray-800 hover:text-gray-700'
                   >
                     {link}
                   </Link>
@@ -27,8 +28,9 @@ const Footer = () => {
               </div>
             </div>
           ))}
+
           <div className='w-auto px-4'>
-            <h2 className='font-semibold text-gray-900 tracking-widest text-sm mb-3'>
+            <h2 className='font-semibold text-gray-800 tracking-widest text-sm mb-3'>
               Get in Touch
             </h2>
             <div className='mb-10 flex flex-col gap-3 text-gray-900'>

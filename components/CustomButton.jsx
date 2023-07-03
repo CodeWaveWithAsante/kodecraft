@@ -1,11 +1,11 @@
-import React from 'react'
+const CustomButton = ({ title, containerStyles, iconRight }) => {
+  return (
+    <button className={`inline-flex items-center ${containerStyles}`}>
+      {title}
 
-const CustomButton = ({ title, rightIcon, containerStyles }) => {
-    return (
-        <button className={`inline-flex items-center ${containerStyles}`}>{title}
-            {rightIcon && <div className='ml-2'>{rightIcon}</div>}
-        </button>
-    )
-}
+      {iconRight && <div className='ml-2'>{iconRight}</div>}
+    </button>
+  );
+};
 
-export default CustomButton
+export default CustomButton;
