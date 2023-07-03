@@ -12,14 +12,14 @@ const Header = () => {
       <div className='container mx-auto flex  py-8 2xl:pt-20 md:flex-row flex-col items-center'>
         <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col  mb-16 md:mb-0 '>
           <h1 className='text-3xl md:text-4xl mb-4 font-bold text-slate-600 leading-[3rem] 2xl:leading-[4rem]'>
-            CodeCraft Solutions:
+            KodeCraft Solutions:
             <br />
             <span className='text-blue-700 text-5xl'>
               Building Your Digital Future
             </span>
           </h1>
           <p className='mb-8 leading-relaxed 2xl:mb-14 2xl:leading-[2rem]'>
-            At CodeCraft Solutions, we are passionate about transforming ideas
+            At KodeCraft Solutions, we are passionate about transforming ideas
             into innovative software solutions. With our team of expert
             developers, we specialize in crafting cutting-edge applications
             tailored to meet your unique business needs..
@@ -39,11 +39,11 @@ const Header = () => {
             src={"/hero.jpg"}
             width={500}
             height={500}
-            alt='CodeCraft'
+            alt='KodeCraft'
             className=''
           />
 
-          <div className='absolute bg-white p-2 shadow-2xl rounded-lg left-0 top-6 flex items-center gap-2 cursor-pointer'>
+          <div className='absolute bg-white p-2 shadow-2xl rounded-lg left-0 top-6 flex items-center gap-2 cursor-pointer hover:scale-110 ease-in-out duration-300'>
             <div className='w-[42px] h-[42px] rounded-full'>
               <Image
                 src='/tim.jpg'
@@ -62,7 +62,7 @@ const Header = () => {
             </div>
           </div>
 
-          <div className='absolute bg-white p-2 shadow-2xl rounded-lg right-0 bottom-6 flex items-center gap-2 cursor-pointer'>
+          <div className='absolute bg-white p-2 shadow-2xl rounded-lg right-0 bottom-6 flex items-center gap-2 cursor-pointer hover:scale-110 ease-in-out duration-300'>
             <div className='w-[42px] h-[42px] rounded-full'>
               <Image
                 src='/ellen.jpg'
@@ -75,7 +75,7 @@ const Header = () => {
 
             <div>
               <p className='font-semibold text-slate-700'>Judith M. Natale</p>
-              <span className='text-xs font-medium'>roduct Manager</span>
+              <span className='text-xs font-medium'>Product Manager</span>
             </div>
           </div>
         </div>

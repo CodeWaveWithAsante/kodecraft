@@ -9,7 +9,7 @@ const Card = ({ title, text, icon }) => {
     setShowFullDescription((prev) => !prev);
   };
 
-  const cardClassName = `w-full h-64 bg-[#001a36] border border-gray-400 rounded-lg shadow-md p-4 py-6 hover:scale-y-125 hover:pb-8 transition  ease-in-out duration-300 hover:my-2 hover:h-auto`;
+  const cardClassName = `w-full h-64 bg-[#001a36] border border-gray-400 rounded-lg shadow-md p-4 py-6 hover:scale-y-125 hover:pb-8 ease-in-out duration-300 hover:my-2 hover:h-auto`;
 
   return (
     <div

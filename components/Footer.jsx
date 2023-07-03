@@ -33,7 +33,7 @@ const Footer = () => {
             </h2>
             <div className='mb-10 flex flex-col gap-3 text-gray-900'>
               <p>+91 7987 464 867</p>
-              <p>support@codewave.com</p>
+              <p>support@kodecraft.com</p>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ const Footer = () => {
       <div className='bg-[#001a36]'>
         <div className='container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row'>
           <p className='text-gray-300 text-sm text-center sm:text-left'>
-            &copy; 2023 CodeCraft Solutions —
+            &copy; 2023 KodeCraft Solutions —
             <Link
               href='https://youtube.com/@CodeWaveWithAsante'
               className='text-[#1199e7] ml-1'

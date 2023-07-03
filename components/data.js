@@ -136,7 +136,7 @@ export const reviews = [
     rating: 5,
     image: "/asante.png",
     review:
-      "CodeCraft Solutions delivered an exceptional custom software solution that perfectly met our business needs. Their team was highly professional, efficient, and responsive throughout the entire development process. We are extremely satisfied with the results and would highly recommend their services.",
+      "KodeCraft Solutions delivered an exceptional custom software solution that perfectly met our business needs. Their team was highly professional, efficient, and responsive throughout the entire development process. We are extremely satisfied with the results and would highly recommend their services.",
   },
   {
     id: 2,
@@ -144,7 +144,7 @@ export const reviews = [
     rating: 4.5,
     image: "/ellen.jpg",
     review:
-      "I hired CodeCraft Solutions for mobile app development, and they exceeded my expectations. Their team displayed excellent technical expertise and attention to detail. The app they developed for us is user-friendly and visually appealing. I appreciate their dedication and commitment to delivering a high-quality product.",
+      "I hired KodeCraft Solutions for mobile app development, and they exceeded my expectations. Their team displayed excellent technical expertise and attention to detail. The app they developed for us is user-friendly and visually appealing. I appreciate their dedication and commitment to delivering a high-quality product.",
   },
   {
     id: 3,
@@ -152,7 +152,7 @@ export const reviews = [
     rating: 4,
     image: "/tim.jpg",
     review:
-      "CodeCraft Solutions created a stunning website for our business. Their web development services are top-notch, and they successfully brought our vision to life. The team ensured a smooth user experience and incorporated all the features we requested. We are delighted with their work and would gladly collaborate with them again.",
+      "KodeCraft Solutions created a stunning website for our business. Their web development services are top-notch, and they successfully brought our vision to life. The team ensured a smooth user experience and incorporated all the features we requested. We are delighted with their work and would gladly collaborate with them again.",
   },
   {
     id: 4,
@@ -160,7 +160,7 @@ export const reviews = [
     rating: 5,
     image: "/john.jpg",
     review:
-      "Working with CodeCraft Solutions on our e-commerce platform was a fantastic experience. They delivered a secure and scalable solution that has significantly boosted our online sales. Their attention to detail and ability to understand our business requirements were commendable. We highly recommend their e-commerce services.",
+      "Working with KodeCraft Solutions on our e-commerce platform was a fantastic experience. They delivered a secure and scalable solution that has significantly boosted our online sales. Their attention to detail and ability to understand our business requirements were commendable. We highly recommend their e-commerce services.",
   },
   {
     id: 5,
@@ -168,7 +168,7 @@ export const reviews = [
     rating: 4.5,
     image: "/asante1.png",
     review:
-      "The UI/UX design services provided by CodeCraft Solutions were outstanding. They truly understood our brand identity and crafted visually stunning interfaces that are both aesthetically pleasing and intuitive. Our customers love the new look, and we've seen increased engagement as a result. Thank you, CodeCraft!",
+      "The UI/UX design services provided by KodeCraft Solutions were outstanding. They truly understood our brand identity and crafted visually stunning interfaces that are both aesthetically pleasing and intuitive. Our customers love the new look, and we've seen increased engagement as a result. Thank you, KodeCraft!",
   },
   {
     id: 6,
@@ -176,7 +176,7 @@ export const reviews = [
     rating: 4,
     image: "/ellen.jpg",
     review:
-      "CodeCraft Solutions' software testing and quality assurance team played a crucial role in ensuring the reliability of our application. They meticulously tested every aspect, identifying and addressing potential issues before launch. Their expertise and attention to detail gave us confidence in the performance and security of our software.",
+      "KodeCraft Solutions' software testing and quality assurance team played a crucial role in ensuring the reliability of our application. They meticulously tested every aspect, identifying and addressing potential issues before launch. Their expertise and attention to detail gave us confidence in the performance and security of our software.",
   },
 ];
 

@@ -24,7 +24,7 @@ const Navbar = () => {
         >
           <FaCode className='w-10 h-10 text-white p-2 bg-blue-500 rounded-full text-lg' />
 
-          <span className='ml-3 text-xl'>CodeCraft</span>
+          <span className='ml-3 text-xl'>KodeCraft</span>
         </a>
 
         <ul className='hidden md:flex gap-6 items-center text-base justify-center'>
@@ -67,7 +67,7 @@ const Navbar = () => {
         <div className='hidden md:block'>
           <CustomButton
             title='Register'
-            containerStyles={`text-slate-800 border border-slate-500 py-1.5 px-5 focus:outline-none hover:bg-blue-700 hover:text-white rounded-full text-base`}
+            containerStyles={`text-white py-1.5 px-5 focus:outline-none bg-blue-600 hover:bg-blue-700 rounded-full text-base`}
           />
         </div>
 
